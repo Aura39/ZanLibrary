@@ -15,4 +15,4 @@ AI pull requests will be closed. People trying to hide the fact of AI usage will
 1. Namespaces should be written using one word describing the file usage purpose. (Common, Container, Rendering, etc). All file-related namespaces must be under the Formats namespace.
 2. File classes must be called `FormatFile.cs` where `Format` is the file format name. (Bxm, Dat, Ctx, etc)
 3. All file reading classes should use the included BinReader and BinWriter classes with no hardcoded endianness (unless the format has a specific one, like `.bxm` always being big endian)
-4. All file reading classes must have 2 public static methods being Save() and Load() (accepting byte[]). Any other arguments are allowed if the class requires additional parameters (usually you might want an IsBigEndian argument)  
+4. All file reading classes must have 2 public static methods being Save() (returning byte[]) and Load() (accepting byte[]). Any other arguments are allowed if the class requires additional parameters (usually you might want an IsBigEndian argument)  
