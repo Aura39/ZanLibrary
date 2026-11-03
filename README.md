@@ -9,7 +9,7 @@ Include the library as a dependency in your C# project.
 
 # Contribution
 Submit Pull Requests if you want to contribute code, or submit issues if there are bugs with the library.  
-AI pull requests will be closed. People trying to hide the fact of AI usage will be banned.
+AI written pull requests will be closed. AI-assisted code is not permitted. People trying to hide the fact of AI usage will be banned.
 
 ## Writing Style
 1. Namespaces should be written using one word describing the file usage purpose. (Common, Container, Rendering, etc). All file-related namespaces must be under the Formats namespace.
