@@ -23,6 +23,16 @@ namespace ZanLibrary
             _pointer = (int)offset;
         }
 
+        public int Tell()
+        {
+            return _pointer;
+        }
+
+        public int GetBufferLength()
+        {
+            return _data.Length;
+        }
+
         // Single Value Reading
         public byte ReadByte()
         {
